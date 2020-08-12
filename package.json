@@ -1,0 +1,59 @@
+{
+  "name": "cordova-plugin-ios-cml-permissions",
+  "version": "1.2.0",
+  "description": "Cordova / PhoneGap Plugin Permission Settings for NSCameraUsageDescription, NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSPhotoLibraryAddUsageDescription, NSPhotoLibraryUsageDescription and NSMicrophoneUsageDescription in iOS 11 by adding a declaration to the Info.plist file",
+  "cordova": {
+    "id": "cordova-plugin-ios-cml-permissions",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriy-karasyov/cordova-plugin-ios-cml-permissions.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "security",
+    "permissions",
+    "nscamerausagedescription",
+    "nslocationwheninuseusagedescription",
+    "nslocationalwaysandwheninuseusagedescription",
+    "nsphotolibraryaddusagedescription",
+    "nsphotolibraryusagedescription",
+    "nsmicrophoneusagedescription",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Dmitriy Karasyov",
+  "keywords": [
+    "cordova",
+    "ios",
+    "ios10",
+    "ios11",
+    "app",
+    "security",
+    "permissions",
+    "nscamerausagedescription",
+    "nsphotolibraryaddusagedescription",
+    "nsphotolibraryusagedescription",
+    "nsmicrophoneusagedescription",
+    "nslocationwheninuseusagedescription",
+    "nslocationalwaysandwheninuseusagedescription",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmitriy-karasyov/cordova-plugin-ios-cml-permissions/issues"
+  },
+  "homepage": "https://github.com/dmitriy-karasyov/cordova-plugin-ios-cml-permissions#readme"
+}

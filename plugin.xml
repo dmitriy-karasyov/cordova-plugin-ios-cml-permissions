@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-ios-cml-permissions" version="1.2.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>iOS Camera/Mircophone/Location Permissions</name>
+    <author>Dmitriy Karasyov</author>
+    <description>Cordova / PhoneGap Plugin Permission Settings for NSCameraUsageDescription, NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSPhotoLibraryAddUsageDescription, NSPhotoLibraryUsageDescription and NSMicrophoneUsageDescription in iOS 11 by adding a declaration to the Info.plist file</description>
+    <keywords>cordova, ios, app, security, permissions, nscamerausagedescription, nslocationwheninuseusagedescription, nslocationalwaysandwheninuseusagedescription, nsphotolibraryaddusagedescription, nsphotolibraryusagedescription, nsmicrophoneusagedescription</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+        </engines>
+        <platform name="ios">
+            <preference name="CAMERA_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашей камере"/>
+            <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+                <string>$CAMERA_USAGE_DESCRIPTION</string>
+            </config-file>
+
+            <preference name="MICROPHONE_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашему микрофону"/>
+            <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
+                <string>$MICROPHONE_USAGE_DESCRIPTION</string>
+            </config-file>
+
+            <preference name="PHOTOLIBRARY_ADD_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашей галерее"/>
+            <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+                <string>$PHOTOLIBRARY_ADD_USAGE_DESCRIPTION</string>
+            </config-file>
+
+            <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашей галерее"/>
+            <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+                <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
+            </config-file>
+
+            <preference name="LOCATION_WHEN_IN_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашему расположению"/>
+            <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+                <string>$LOCATION_WHEN_IN_USAGE_DESCRIPTION</string>
+            </config-file>
+
+            <preference name="LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESCRIPTION" default="Приложению необходим доступ к Вашему расположению"/>
+            <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+                <string>$LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESCRIPTION</string>
+            </config-file>
+        </platform>
+    </plugin>

@@ -1,4 +1,4 @@
-## iOS 11 Camera Permissions Plugin for Apache Cordova
+## iOS 11 Camera/Microphone/Location Permissions Plugin for Apache Cordova
 
 **Cordova / PhoneGap Plugin Permission Settings for NSCameraUsageDescription, NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSPhotoLibraryAddUsageDescription, NSPhotoLibraryUsageDescription and NSMicrophoneUsageDescription in iOS 11 by adding a declaration to the Info.plist file**
 
