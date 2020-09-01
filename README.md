@@ -26,10 +26,11 @@ On installation you can customise the prompts shown by setting the following var
 - PHOTOLIBRARY_USAGE_DESCRIPTION for NSPhotoLibraryUsageDescription (read/write access)
 - LOCATION_WHEN_IN_USAGE_DESCRIPTION for NSLocationWhenInUseUsageDescription
 - LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESCRIPTION for NSLocationAlwaysAndWhenInUseUsageDescription
+- LOCATION_ALWAYS_USAGE_DESCRIPTION for NSLocationAlwaysUsageDescription
 
 For example:
 ```
-cordova plugin add cordova-plugin-ios-cml-permissions --variable CAMERA_USAGE_DESCRIPTION="your usage message" --variable MICROPHONE_USAGE_DESCRIPTION="your microphone usage message here" --variable PHOTOLIBRARY_ADD_USAGE_DESCRIPTION="your photo library usage message here" --variable PHOTOLIBRARY_USAGE_DESCRIPTION="your photo library usage message here" --save
+cordova plugin add cordova-plugin-ios-cml-permissions --variable CAMERA_USAGE_DESCRIPTION="your message" --variable MICROPHONE_USAGE_DESCRIPTION="your message" --variable PHOTOLIBRARY_ADD_USAGE_DESCRIPTION="your message" --variable PHOTOLIBRARY_USAGE_DESCRIPTION="your message" --variable LOCATION_WHEN_IN_USAGE_DESCRIPTION="your message" --variable LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESCRIPTION="your message" --variable LOCATION_ALWAYS_USAGE_DESCRIPTION="your message" --save
 ```
 
 ## Usage
